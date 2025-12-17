@@ -1,13 +1,20 @@
 public class pattern6 {
+
     public static void main(String[] args) {
 
         int n = 5;
 
         for (int row = 1; row <= n; row++) {
-            for (int col = row; col <= n; col++) {
-                System.out.print(col);
+            for (int col = 1; col <= n; col++) {
+                int result = row + col;
+
+                if (result % 2 == 0) {
+                    System.out.print("1 ");
+                } else {
+                    System.out.print("0 ");
+                }
             }
-            System.out.println();
-        }
-    }
+            System.out.println(); 
+        }
+    }
 }
