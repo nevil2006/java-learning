@@ -8,7 +8,11 @@ public class Inputs {
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
 
+        System.out.print("Enter your name: ");
+        String name = sc.next(); // single word
+
         System.out.println("My age is: " + age);
+        System.out.println("My name is: " + name);
 
         sc.close();
     }
