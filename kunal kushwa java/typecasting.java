@@ -18,5 +18,7 @@ public  class typecasting{
 
         int number='N';
         System.out.println(number);
+
+        System.out.println("നെവിൾ");
     }
 }
