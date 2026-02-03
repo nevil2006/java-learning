@@ -15,5 +15,8 @@ public  class typecasting{
         byte b=100;
         int d=(a*b)/c;
         System.out.println(d);
+
+        int number='N';
+        System.out.println(number);
     }
 }
