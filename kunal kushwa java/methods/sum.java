@@ -3,6 +3,7 @@ public class sum {
     public static void main(String[] args) {
         sum();
     }
+        
     static void sum(){
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter the value 1:");
@@ -14,4 +15,3 @@ public class sum {
 
     }
 }
-    
