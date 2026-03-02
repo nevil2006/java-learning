@@ -1,0 +1,10 @@
+what is Array?
+ 
+An Array used to store many values in one variable
+
+int arr[]=[10,20,30]
+
+array syntax
+
+int[]arr=new int[n]
+
