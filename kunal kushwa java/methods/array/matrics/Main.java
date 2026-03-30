@@ -10,6 +10,7 @@ public class Main {
         list.add(30);
         
         System.out.println(list);
+        System.out.println(list.size());    
 
     }
 }
