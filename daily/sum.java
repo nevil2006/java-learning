@@ -1,7 +1,9 @@
 import java.util.Scanner;
 public class sum {
     public static void main(String[] args) {
-        int n=123;
+        Scanner sc=new Scanner(System.in);
+        int i=sc.nextInt();
+        int n=i;
         int sum=0;
         while(n>0){
             int rem=n%10;
