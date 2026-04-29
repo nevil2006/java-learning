@@ -8,10 +8,10 @@ public class palinword {
             rev=rev+s.charAt(i);
         }
         if(s.equals(rev)){
-            System.out.println("Palindrome");
+            System.out.println("Yes");
         }
         else{
-            System.out.println("Not a Palindrome");
+            System.out.println("No");
         }
     }
     
