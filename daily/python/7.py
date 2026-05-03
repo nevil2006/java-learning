@@ -1,0 +1,1 @@
+n=string(input("enter a string"))
