@@ -13,7 +13,7 @@ class BobBank {
 
     // Deposit Method
     void deposit(int amount) {
-        balance = balance + amount;
+        balance = balance * amount;
     }
 
     // Withdraw Method
