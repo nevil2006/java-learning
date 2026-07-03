@@ -1,0 +1,13 @@
+Class:
+BankAccount
+
+Attributes:
+accountNumber
+accountHolder
+balance
+
+Methods:
+deposit()
+withdraw()
+checkBalance()
+displayDetails()
