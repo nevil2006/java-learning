@@ -21,8 +21,6 @@ public class dupli {
 
         System.out.println("Unique Count: " + (i + 1));
 
-        for (int k = 0; k <= i; k++) {
-            System.out.print(arr[k] + " ");
-        }
+
     }
 }
