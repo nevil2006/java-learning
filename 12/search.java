@@ -7,7 +7,7 @@ public class search {
         for (int i = 0; i < arr.length; i++) {
 
             if (arr[i] == target) {
-                System.out.println("FOUND");
+                System.out.println("FOUND");  
                 return;
             }
         }
