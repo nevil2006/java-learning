@@ -10,7 +10,7 @@ public class sort {
         while (i < arr1.length && j < arr2.length) {
 
             if (arr1[i] == arr2[j]) {
-                System.out.println(arr1[i]);
+                System.out.print(arr1[i]+",");
                 i++;
                 j++;
             }
